@@ -12,15 +12,11 @@ import moment from 'moment'
 
 const { RangePicker } = DatePicker
 function Home() {
-	const initialCars = [
-  { id: 1, make: "Dummy Make 1", model: "Dummy Model 1" },
-  { id: 2, make: "Dummy Make 2", model: "Dummy Model 2" },
-  // ... more dummy objects
-];
+
 
     const { cars } = useSelector(state => state.carsReducer)
     const { loading } = useSelector(state => state.alertsReducer)
-    const [totalCars, setTotalcars] = useState(initialCars)
+    const [totalCars, setTotalcars] = useState([])
     const dispatch = useDispatch()
 
 
@@ -200,7 +196,7 @@ function Home() {
 					<h2 >featured cars</h2>
 				</div>
                 {loading === true && (<Spinner />)}
-                 {totalCars && totalCars.map(car => {
+                 {Array.isArray(totalCars) && totalCars?.map(car => {
 				return <div class="" >
 					<div class="" style={{marign:'10px'}}>
 						<div class="col-lg-3 col-md-4 col-sm-6">
