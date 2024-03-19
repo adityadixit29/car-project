@@ -22,7 +22,7 @@ function AdminHome() {
 
   useEffect(() => {
     setTotalcars(cars);
-  }, [cars]);
+  }, [loading]);
 
   return (
     <DefaultLayout>
