@@ -227,11 +227,11 @@ function Home() {
 						
 					</div>
 				</div>
-                 })}
+                
 			</div>
 
 		</section>
-    
+     })}
     {/* bottom section */}
 	
 		<section id="blog" class="blog"></section>
