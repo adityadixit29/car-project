@@ -12,8 +12,7 @@ import moment from 'moment'
 
 const { RangePicker } = DatePicker
 function Home() {
-
-
+    
     const { cars } = useSelector(state => state.carsReducer)
     const { loading } = useSelector(state => state.alertsReducer)
     const [totalCars, setTotalcars] = useState([])
@@ -189,17 +188,16 @@ function Home() {
                     </div>
                 </div>
 {/* cars */}
-{Array.isArray(totalCars) && totalCars.map(car => {
-                return <section id="featured-cars" class="featured-cars">
+                <section id="featured-cars" class="featured-cars">
 			<div class="container">
 				<div class="section-header" style={{padding:'61px'}}>
 					<p>checkout <span>the</span> featured cars</p>
 					<h2 >featured cars</h2>
 				</div>
                 {loading === true && (<Spinner />)}
-                 
-				 <div class="random">
-					<div class="random" style={{marign:'10px'}}>
+                 {Array.isArray(totalCars) && totalCars.map(car => {
+				return <div class="" >
+					<div class="" style={{marign:'10px'}}>
 						<div class="col-lg-3 col-md-4 col-sm-6">
 							<div class="single-featured-cars">
 								<div class="featured-img-box">
@@ -227,11 +225,11 @@ function Home() {
 						
 					</div>
 				</div>
-                
+                 })}
 			</div>
 
 		</section>
-     })}
+    
     {/* bottom section */}
 	
 		<section id="blog" class="blog"></section>
