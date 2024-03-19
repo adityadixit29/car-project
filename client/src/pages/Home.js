@@ -197,8 +197,8 @@ function Home() {
 				</div>
                 {loading === true && (<Spinner />)}
                  {Array.isArray(totalCars) && totalCars.map(car => {
-				return <div class="" >
-					<div class="" style={{marign:'10px'}}>
+				return <div class="random">
+					<div class="random" style={{marign:'10px'}}>
 						<div class="col-lg-3 col-md-4 col-sm-6">
 							<div class="single-featured-cars">
 								<div class="featured-img-box">
