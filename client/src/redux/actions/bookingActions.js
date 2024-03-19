@@ -4,7 +4,7 @@ export const bookCar = (reqObj) => async (dispatch) => {
   dispatch({ type: "LOADING", payload: true });
 
   try {
-     await axios.post("http://localhost:5000/api/bookings/bookcar" , reqObj);
+     await axios.post("https://car-project-server-f9ogvkarl-adityadixit29s-projects.vercel.app/api/bookings/bookcar" , reqObj);
 
     dispatch({ type: "LOADING", payload: false });
     message.success("Your car booked successfully");
