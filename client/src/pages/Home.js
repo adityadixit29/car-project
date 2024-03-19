@@ -189,7 +189,7 @@ function Home() {
                     </div>
                 </div>
 {/* cars */}
-{totalCars.map(car => {
+{Array.isArray(totalCars) && totalCars.map(car => {
                 return <section id="featured-cars" class="featured-cars">
 			<div class="container">
 				<div class="section-header" style={{padding:'61px'}}>
