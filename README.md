@@ -1,74 +1,70 @@
-# Car Rental Project
+# Getting Started with Create React App
 
-The Car Rental project is a comprehensive MERN stack web application tailored for small rental companies. It encompasses end-to-end functionality, including user authentication, booking management, and admin features. This application is built using Node.js, Express.js, React.js, Redux, MongoDB, and Mongoose.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project Features
+## Available Scripts
 
-- User authentication for secure access to the platform.
-- Booking management system for efficient rental services.
-- Admin dashboard with specialized features for company management.
+In the project directory, you can run:
 
-## Live Link
+### `npm start`
 
-[Click here to visit Car Rental](<https://car-rental-p1wz.vercel.app/>)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## How to Use
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. Clone the repository:
+### `npm test`
 
-```bash
-git clone https://github.com/pjyotianwar/CarRental.git
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-2. Install dependencies for both the server and client:
+### `npm run build`
 
-```bash
-cd CarRental
-npm install
-cd client
-npm install
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-3. Start the server and client:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```bash
-# In the main project directory
-npm run dev
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-4. Open your browser and visit `http://localhost:3000` to start using Car Rental.
+### `npm run eject`
 
-## Project Structure
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- `client`: Contains the React.js frontend of the project.
-- `server`: Contains the Node.js and Express.js backend of the project.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Screenshots
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-<img width="1440" alt="CarRental 1" src="https://github.com/pjyotianwar/Car-Rental/assets/70092582/bbe56b53-c3fa-47e7-bf97-62db012950a1">
-<br><br>
-<img width="1440" alt="CarRental 2" src="https://github.com/pjyotianwar/Car-Rental/assets/70092582/89a8c5fa-e00f-4904-80c4-33d10f554a23">
-<br><br>
-<img width="1023" alt="CarRental 3" src="https://github.com/pjyotianwar/Car-Rental/assets/70092582/f673c18a-6d47-4e9d-9176-7e76339b5044">
-<br><br>
-<img width="1024" alt="CarRental 4" src="https://github.com/pjyotianwar/Car-Rental/assets/70092582/69a685c1-0292-4ad6-822c-7f1410776e9e">
-<br><br>
-<img width="1026" alt="CarRental 5" src="https://github.com/pjyotianwar/Car-Rental/assets/70092582/b081b2d8-943f-4151-bcea-77961d3212a7">
-<br><br>
-<img width="1022" alt="CarRental 6" src="https://github.com/pjyotianwar/Car-Rental/assets/70092582/aa000364-7f97-4fcb-9486-41a14d869ec2">
-<br><br>
-<img width="1038" alt="CarRental 7" src="https://github.com/pjyotianwar/Car-Rental/assets/70092582/bf666a46-3c02-492e-9ede-7fd4a5411cd3">
-<br><br>
-<img width="1042" alt="CarRental 8" src="https://github.com/pjyotianwar/Car-Rental/assets/70092582/4b5011a5-5191-463e-99e9-9f7222363512">
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Contributing
+## Learn More
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## License
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-[MIT](LICENSE)
+### Code Splitting
 
-## Acknowledgements
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- Special thanks to the developers and contributors of the libraries and technologies used in this project.
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
