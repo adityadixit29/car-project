@@ -194,9 +194,7 @@ function Home() {
 					<h2 >featured cars</h2>
 				</div>
                 {loading === true && (<Spinner />)}
-                 {{totalCars.length == 0 ? (
-  <div>No cars available</div>
-) :  (totalCars.map(car => {
+                 {totalCars.map(car => {
 				return <div class="" >
 					<div class="" style={{marign:'10px'}}>
 						<div class="col-lg-3 col-md-4 col-sm-6">
