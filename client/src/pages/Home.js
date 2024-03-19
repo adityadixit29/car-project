@@ -190,15 +190,15 @@ function Home() {
                 </div>
 {/* cars */}
 {totalCars.map(car => {
-                <section id="featured-cars" class="featured-cars">
+                return <section id="featured-cars" class="featured-cars">
 			<div class="container">
 				<div class="section-header" style={{padding:'61px'}}>
 					<p>checkout <span>the</span> featured cars</p>
 					<h2 >featured cars</h2>
 				</div>
                 {loading === true && (<Spinner />)}
-                 {Array.isArray(totalCars) && totalCars.map(car => {
-				return <div class="random">
+                 
+				 <div class="random">
 					<div class="random" style={{marign:'10px'}}>
 						<div class="col-lg-3 col-md-4 col-sm-6">
 							<div class="single-featured-cars">
