@@ -37,31 +37,31 @@ function Home() {
 
         var temp = []
 
-        for (var car of cars) {
+        // for (var car of cars) {
 
-            if (car.bookedTimeSlots.length == 0) {
-                temp.push(car)
-            }
-            else {
+        //     if (car.bookedTimeSlots.length == 0) {
+        //         temp.push(car)
+        //     }
+        //     else {
 
-                for (var booking of car.bookedTimeSlots) {
+        //         for (var booking of car.bookedTimeSlots) {
 
-                    if (selectedFrom.isBetween(booking.from, booking.to) ||
-                        selectedTo.isBetween(booking.from, booking.to) ||
-                        moment(booking.from).isBetween(selectedFrom, selectedTo) ||
-                        moment(booking.to).isBetween(selectedFrom, selectedTo)
-                    ) {
+        //             if (selectedFrom.isBetween(booking.from, booking.to) ||
+        //                 selectedTo.isBetween(booking.from, booking.to) ||
+        //                 moment(booking.from).isBetween(selectedFrom, selectedTo) ||
+        //                 moment(booking.to).isBetween(selectedFrom, selectedTo)
+        //             ) {
 
-                    }
-                    else {
-                        temp.push(car)
-                    }
+        //             }
+        //             else {
+        //                 temp.push(car)
+        //             }
 
-                }
+        //         }
 
-            }
+        //     }
 
-        }
+        // }
 
 
         setTotalCars(temp)
