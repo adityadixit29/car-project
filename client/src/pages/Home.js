@@ -195,8 +195,8 @@ function Home() {
 					<h2 >featured cars</h2>
 				</div>
                 {loading === true && (<Spinner />)}
-                 {totalCars?.map(car => {
-				return <div class="" >
+                return {totalCars?.map(car => {
+				 <div class="" >
 					<div class="" style={{marign:'10px'}}>
 						<div class="col-lg-3 col-md-4 col-sm-6">
 							<div class="single-featured-cars">
