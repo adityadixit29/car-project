@@ -63,7 +63,12 @@ function Home() {
 
         // }
 
+	for (var car of cars) {
 
+           
+                temp.push(car)
+            
+	}
         setTotalCars(temp)
 
 
